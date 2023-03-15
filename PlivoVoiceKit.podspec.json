@@ -1,5 +1,5 @@
 {
-  "name": "PlivoVoiceKitFix",
+  "name": "PlivoVoiceKit",
   "version": "3.0.2-beta",
   "summary": "PlivoVoiceKit XCFramework",
   "description": "PlivoVoiceKit XCFramework to integrate voice calling within your applications. Make, receive, and control calls across the world.",
