@@ -23,16 +23,13 @@
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
-  "subspecs": [
-    {
-      "name": "xcframework",
-      "vendored_frameworks": "PlivoVoiceKit.xcframework",
-      "source_files": "PlivoVoiceKit/PlivoVoiceKit.xcframework/ios-arm64/PlivoVoiceKit.framework/Headers/*.{h}",
-      "public_header_files": "PlivoVoiceKit/PlivoVoiceKit.xcframework/ios-arm64/PlivoVoiceKit.framework/Headers/*.{h}",
-      "xcconfig": {
-        "OTHER_LDFLAGS": "-ObjC"
-      }
+  "ios": {
+    "vendored_frameworks": "PlivoVoiceKit.xcframework",
+    "source_files": "PlivoVoiceKit/PlivoVoiceKit.xcframework/ios-arm64/PlivoVoiceKit.framework/Headers/*.{h}",
+    "public_header_files": "PlivoVoiceKit/PlivoVoiceKit.xcframework/ios-arm64/PlivoVoiceKit.framework/Headers/*.{h}",
+    "xcconfig": {
+      "OTHER_LDFLAGS": "-ObjC"
     }
-  ],
+  },
   "swift_version": "5.1"
 }
